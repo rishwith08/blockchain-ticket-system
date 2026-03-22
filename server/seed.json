@@ -1,0 +1,60 @@
+{
+  "users": [
+    {
+      "email": "admin@chainticket.com",
+      "password": "admin123",
+      "role": "admin"
+    },
+    {
+      "email": "org@chainticket.com",
+      "password": "123456",
+      "role": "organizer"
+    },
+    {
+      "email": "user@chainticket.com",
+      "password": "123456",
+      "role": "attendee"
+    }
+  ],
+  "events": [
+    {
+      "id": "evt-1",
+      "title": "Tech Fest 2026",
+      "date": "2026-04-10",
+      "location": "Hyderabad",
+      "price": 200,
+      "totalTickets": 1000,
+      "soldTickets": 0,
+      "description": "Annual tech festival with workshops and talks.",
+      "time": "10:00",
+      "organizer": "Tech Committee",
+      "organizerEmail": "org@chainticket.com"
+    },
+    {
+      "id": "evt-2",
+      "title": "Music Night",
+      "date": "2026-04-15",
+      "location": "Bangalore",
+      "price": 500,
+      "totalTickets": 500,
+      "soldTickets": 0,
+      "description": "A night of soulful music and energetic performances.",
+      "time": "18:00",
+      "organizer": "Music Club",
+      "organizerEmail": "org@chainticket.com"
+    },
+    {
+      "id": "evt-3",
+      "title": "College Hackathon",
+      "date": "2026-04-20",
+      "location": "Chennai",
+      "price": 100,
+      "totalTickets": 200,
+      "soldTickets": 0,
+      "description": "24-hour hackathon to solve real-world problems.",
+      "time": "09:00",
+      "organizer": "Hackathon Org",
+      "organizerEmail": "org@chainticket.com"
+    }
+  ]
+}
